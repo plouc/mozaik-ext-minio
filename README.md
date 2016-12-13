@@ -6,6 +6,19 @@
 [![Dependencies][gemnasium-image]][gemnasium-url]
 [![Coverage Status][coverage-image]][coverage-url]
 
+## Minio Client Configuration
+
+In order to use the Mozaïk minio widgets, you should configure its **client**.
+
+### parameters
+
+key         | env key          | required | default | description
+------------|------------------|----------|---------|----------------------------
+`endPoint`  | MINIO_END_POINT  | yes      | `n/a`   | *minio end point*
+`port`      | MINIO_PORT       | no       | 80      | *minio port*
+`secure`    | MINIO_SECURE     | no       | false   | *secure connection*
+`accessKey` | MINIO_ACCESS_KEY | yes      | `n/a`   | *minio access key*
+`secretKey` | MINIO_SECRET_KEY | yes      | `n/a`   | *minio secret key*
 
 
 [license-image]: https://img.shields.io/github/license/plouc/mozaik-ext-minio.svg?style=flat-square
